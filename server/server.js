@@ -8,7 +8,6 @@ app.use(cors());
 
 app.get('/:author', async (req, res) =>{
   const author = req.params.author;
-  console.log(author);
   const rawBooksData = await fetch(`https://gutendex.com/books?search=${author}`);
   const books = await rawBooksData.json();
   res.send(books);
