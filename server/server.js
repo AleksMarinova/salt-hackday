@@ -5,8 +5,6 @@ import fetch from 'node-fetch';
 const app = express();
 const port = process.env.PORT || 3000;
 app.use(cors());
-// const Key = 'Krcsjakg007FbyNUYk687vwHvdqiH6KwDtyN3VFD';
-
 
 app.get('/:author', async (req, res) =>{
   const author = req.params.author;
