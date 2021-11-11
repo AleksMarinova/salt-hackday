@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "nasa-backend",
+  "description": "gutsearch-backend",
   "main": "index.js",
   "type": "module",
   "scripts": {
