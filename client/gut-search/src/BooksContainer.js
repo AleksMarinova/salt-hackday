@@ -1,12 +1,13 @@
 import React from 'react';
 import Book from './Book';
+import Quote from './Quote';
 
 const BooksContainer = ({apiData, query}) => {
 
 const returnFromComponent = (apiData, query) => {
   if(!apiData) {
     return (
-      <h2 className="prompt-container">Search for an author</h2> 
+      <Quote />
     )
   } 
   if(apiData.count === 0) {
@@ -14,6 +15,7 @@ const returnFromComponent = (apiData, query) => {
       <h2 className="prompt-container">Sorry, no results for {query}</h2> 
     )
   }
+  
   return (
 
     <section className="books-container">
