@@ -10,6 +10,7 @@ const SeactForm = ({ sendSearchQuery }) => {
   }
 
   const luckyAuthors = ['dickens', 'tolstoy', 'wilde', 'austen', 'twain', 'shakespeare', 'joyce', 'dostoyevsky', 'christie', 'hugo', 'hemingway', 'doyle', 'lewis', 'stevenson', 'andersen', 'woolf', 'grimm']
+  
   const returnRandomAuthor = (arr) => {
   const range = arr.length - 1;
   const randomIndex = Math.floor(Math.random() * range);
