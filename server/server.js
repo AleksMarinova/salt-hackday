@@ -13,6 +13,12 @@ app.get('/:author', async (req, res) =>{
   res.send(books);
 });
 
+app.get('/quote/random', async (req, res) =>{
+  const quote = await fetch('https://api.quotable.io/random');
+  const quoteData = await quote.json();
+  res.send(quoteData);
+})
+
 app.listen(port, () => {
   console.log(`Gutsearch app listening at http://localhost:${port}`);
 })
