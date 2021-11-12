@@ -1,7 +1,5 @@
 import React from 'react';
 
-// const googleBooksKey = 'AIzaSyA9jya7qxuS5w6geri4l2B3Z_wUGXOiahY'
-
 const Book = ({bookInfo}) => {
   return (
     <div className="book-card">
