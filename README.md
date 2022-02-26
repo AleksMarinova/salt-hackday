@@ -1,5 +1,5 @@
 # salt-hackday
-This project is the result of seven hours of coding during a mini hackaton I had during my time at School of applied technology. It searches project Gutenberg and allows users to download classic books.
+This project is the result of seven hours of coding during a mini hackaton I had during my time at School of applied technology. It searches project Gutenberg and allows users to download classic books in epub format. built with React, Node, and Express. 
 
 [Check it out](https://gutsearch.herokuapp.com/).
 
